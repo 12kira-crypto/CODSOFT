@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Portfolio — Alexander Scottish</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- ===== TOP HEADER + NAV ===== -->
+<header class="site-header">
+  <div class="container d-flex flex-wrap align-items-center justify-content-between py-3">
+    <div class="brand-block">
+      <h1 class="brand-title">Online Portfolio</h1>
+      <p class="brand-tag">Just another My Blog site</p>
+    </div>
+    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#navOffcanvas">
+      <i class="fa-solid fa-bars"></i>
+    </button>
+    <nav class="main-nav d-none d-lg-flex">
+      <a href="#home">Home</a>
+      <a href="#about">About Me</a>
+      <a href="#services">Services</a>
+      <a href="#skill">Skill</a>
+      <a href="#testimonial">Testimonial</a>
+      <a href="#experience">Experience</a>
+      <a href="#works">Works</a>
+      <a href="#blog">Blog</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </div>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="navOffcanvas">
+    <div class="offcanvas-header">
+      <h5>Menu</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <nav class="main-nav-mobile">
+        <a href="#home" data-bs-dismiss="offcanvas">Home</a>
+        <a href="#about" data-bs-dismiss="offcanvas">About Me</a>
+        <a href="#services" data-bs-dismiss="offcanvas">Services</a>
+        <a href="#skill" data-bs-dismiss="offcanvas">Skill</a>
+        <a href="#testimonial" data-bs-dismiss="offcanvas">Testimonial</a>
+        <a href="#experience" data-bs-dismiss="offcanvas">Experience</a>
+        <a href="#works" data-bs-dismiss="offcanvas">Works</a>
+        <a href="#blog" data-bs-dismiss="offcanvas">Blog</a>
+        <a href="#contact" data-bs-dismiss="offcanvas">Contact Us</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero" id="home">
+  <div class="container hero-inner">
+    <div class="row align-items-center">
+      <div class="col-lg-6">
+        <h2 class="hero-heading">ALEXANDER SCOTTISH</h2>
+        <p class="hero-sub">Hi, I am a Professional Developer and ICT Degree holder. I have five years experience in IT Sector as an ICT Lecturer, I'd like to share my skills and experience by taking on freelance and full-time software development work.</p>
+        <a href="#contact" class="btn-blue">Hire Me</a>
+      </div>
+      <div class="col-lg-6"></div>
+    </div>
+  </div>
+  <div class="hero-portrait">
+    <img src="https://placehold.co/700x900/3a3a3a/cfd3d8?text=Hero+Portrait" alt="Portrait of Alexander Scottish">
+  </div>
+</section>
+
+<!-- ===== ABOUT ===== -->
+<section class="about-section" id="about">
+  <div class="container">
+    <div class="row align-items-start">
+      <div class="col-lg-5">
+        <div class="about-photo">
+          <img src="https://placehold.co/420x620/e9e9e9/3a3a3a?text=Full-Body+Photo" alt="Full body photo of Alexander Scottish">
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="about-text">
+          <h3 class="about-heading">ABOUT ME</h3>
+          <p class="about-lead">I am a Developer who blends technical expertise with industry know-how to guide your next software development project from concept to launch.</p>
+          <p class="about-body">Software Developers use programming languages and tools to write, edit, maintain, and test computer software. Software Developers follow the software development lifecycle (SDLC) to plan, design, build, test, and deploy applications, ranging from websites and mobile applications to web applications and enterprise systems. In addition to creating new software, Software Developers improve and maintain the working order of existing software.</p>
+          <a href="#" class="btn-blue">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services-section" id="services">
+  <div class="container">
+    <h3 class="section-title text-center">SERVICES</h3>
+    <p class="section-sub text-center mx-auto">A focused set of services covering the full path from idea to a working, maintainable product.</p>
+    <div class="row g-4 mt-4">
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
+          <i class="fa-solid fa-code"></i>
+          <h5>Web Development</h5>
+          <p>Responsive, performant websites and web apps built with modern frameworks.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
+          <i class="fa-solid fa-mobile-screen-button"></i>
+          <h5>App Development</h5>
+          <p>Cross-platform application development focused on usability and speed.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
+          <i class="fa-solid fa-microchip"></i>
+          <h5>VLSI &amp; Embedded</h5>
+          <p>Digital design and embedded systems, from RTL concepts to hardware integration.</p>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3">
+        <div class="service-box">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <h5>Tech Mentorship</h5>
+          <p>ICT lecturing and mentorship to help teams build real-world technical skills.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== SKILL ===== -->
+<section class="skill-section" id="skill">
+  <div class="container">
+    <h3 class="section-title text-center">SKILL</h3>
+    <p class="section-sub text-center mx-auto">A practical toolkit built across years of shipping production code.</p>
+    <div class="row mt-4">
+      <div class="col-lg-8 mx-auto">
+        <div class="skill-row">
+          <div class="skill-top"><span>Web Development</span><span>95%</span></div>
+          <div class="skill-bar"><span data-width="95"></span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span>Application Development</span><span>88%</span></div>
+          <div class="skill-bar"><span data-width="88"></span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span>Programming (Java / Python)</span><span>92%</span></div>
+          <div class="skill-bar"><span data-width="92"></span></div>
+        </div>
+        <div class="skill-row">
+          <div class="skill-top"><span>VLSI / Digital Design</span><span>80%</span></div>
+          <div class="skill-bar"><span data-width="80"></span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TESTIMONIAL ===== -->
+<section class="testimonial-section" id="testimonial">
+  <div class="container">
+    <h3 class="section-title text-center">TESTIMONIAL</h3>
+    <p class="section-sub text-center mx-auto">Feedback from clients and students I've worked with.</p>
+    <div class="row g-4 mt-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="testi-box">
+          <div class="stars">★★★★★</div>
+          <p>"Alexander delivered our web platform ahead of schedule and the code quality was outstanding."</p>
+          <div class="testi-author">— James Dela Cruz, NimbusTech</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="testi-box">
+          <div class="stars">★★★★★</div>
+          <p>"He explains complex concepts simply and writes production-grade code. Rare combination."</p>
+          <div class="testi-author">— Maria Reyes, Student</div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="testi-box">
+          <div class="stars">★★★★★</div>
+          <p>"Our app redesign exceeded expectations on both engineering and design."</p>
+          <div class="testi-author">— Kevin Lim, Verdant Labs</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== EXPERIENCE ===== -->
+<section class="experience-section" id="experience">
+  <div class="container">
+    <h3 class="section-title text-center">EXPERIENCE</h3>
+    <p class="section-sub text-center mx-auto">A timeline of roles that shaped my engineering and teaching practice.</p>
+    <div class="row mt-4">
+      <div class="col-lg-8 mx-auto">
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="period">2022 — Present</div>
+            <h5>Senior Software Developer — Brightline Software Solutions</h5>
+            <p>Leading full-stack development of client web applications and owning architecture decisions.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="period">2020 — 2022</div>
+            <h5>ICT Lecturer — SDM Institute of Technology</h5>
+            <p>Taught programming, data structures, and web development to undergraduate students.</p>
+          </div>
+          <div class="timeline-item">
+            <div class="period">2019 — 2020</div>
+            <h5>Junior Web Developer — PixelForge Studio</h5>
+            <p>Built and maintained responsive websites for small business clients.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== WORKS ===== -->
+<section class="works-section" id="works">
+  <div class="container">
+    <h3 class="section-title text-center">WORKS</h3>
+    <p class="section-sub text-center mx-auto">A snapshot of recent projects across web, application, and embedded systems.</p>
+    <div class="row g-4 mt-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="work-box">
+          <img src="https://placehold.co/500x360/3a3a3a/cfd3d8?text=Project+One" alt="Project one">
+          <h5>MSME Growth Charter Platform</h5>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="work-box">
+          <img src="https://placehold.co/500x360/3a3a3a/cfd3d8?text=Project+Two" alt="Project two">
+          <h5>Campus Resource Tracker</h5>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="work-box">
+          <img src="https://placehold.co/500x360/3a3a3a/cfd3d8?text=Project+Three" alt="Project three">
+          <h5>Low-Power ALU Architecture</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== BLOG ===== -->
+<section class="blog-section" id="blog">
+  <div class="container">
+    <h3 class="section-title text-center">BLOG</h3>
+    <p class="section-sub text-center mx-auto">Notes on software engineering, teaching, and digital design.</p>
+    <div class="row g-4 mt-4">
+      <div class="col-md-6 col-lg-4">
+        <div class="blog-box">
+          <img src="https://placehold.co/500x320/e9e9e9/3a3a3a?text=Article+One" alt="Blog one">
+          <div class="blog-box-body">
+            <h5>Designing component systems that scale</h5>
+            <a href="#">Read Article →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="blog-box">
+          <img src="https://placehold.co/500x320/e9e9e9/3a3a3a?text=Article+Two" alt="Blog two">
+          <div class="blog-box-body">
+            <h5>What five years of lecturing taught me</h5>
+            <a href="#">Read Article →</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <div class="blog-box">
+          <img src="https://placehold.co/500x320/e9e9e9/3a3a3a?text=Article+Three" alt="Blog three">
+          <div class="blog-box-body">
+            <h5>Bridging software and digital hardware design</h5>
+            <a href="#">Read Article →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h3 class="section-title text-center light">CONTACT US</h3>
+    <p class="section-sub text-center mx-auto light">Have a project in mind? Send a message and I'll get back to you.</p>
+    <div class="row mt-4">
+      <div class="col-lg-8 mx-auto">
+        <form id="contactForm">
+          <div class="row g-3">
+            <div class="col-md-6">
+              <input type="text" class="form-control form-control-custom" placeholder="Your Name" required>
+            </div>
+            <div class="col-md-6">
+              <input type="email" class="form-control form-control-custom" placeholder="Your Email" required>
+            </div>
+            <div class="col-12">
+              <textarea class="form-control form-control-custom" rows="5" placeholder="Your Message" required></textarea>
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit" class="btn-blue">Send Message</button>
+            </div>
+          </div>
+        </form>
+        <div id="formNote" class="text-center mt-3" style="display:none;">Message captured — connect a backend or form service to deliver it.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container text-center">
+    © 2026 Alexander Scottish. All rights reserved.
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
