@@ -1,0 +1,38 @@
+.footer {
+  padding: 40px 5%;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: 1.1rem;
+  letter-spacing: -0.02em;
+  color: #f8faff;
+}
+
+.footer-logo-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #00d4aa;
+  box-shadow: 0 0 12px #00d4aa;
+}
+
+.footer-copy {
+  font-size: 0.82rem;
+  color: #445566;
+}
+
+@media (max-width: 680px) {
+  .footer {
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+  }
+}
