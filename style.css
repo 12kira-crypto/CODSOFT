@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root{
+  --body-bg: #e9edf2;
+  --calc-bg: #2b2f38;
+  --screen-bg: #1f2128;
+  --key-bg: #3a3f4b;
+  --key-bg-hover: #454b59;
+  --utility-bg: #545b6a;
+  --blue: #2f6fed;
+  --blue-deep: #1f4fc4;
+  --text-light: #f4f6f9;
+  --text-muted: #9aa1ad;
+}
+
+*{ box-sizing: border-box; }
+
+body{
+  margin:0;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  background:var(--body-bg);
+  font-family:'Poppins', sans-serif;
+  padding:1.5rem;
+}
+
+.calculator{
+  width:100%;
+  max-width:340px;
+  background:var(--calc-bg);
+  border-radius:22px;
+  padding:1.4rem;
+  box-shadow:0 30px 60px rgba(20,23,28,.25);
+}
+
+.calc-header{
+  display:flex;
+  align-items:center;
+  margin-bottom:.9rem;
+}
+.calc-title{
+  color:var(--text-muted);
+  font-size:.82rem;
+  font-weight:500;
+  letter-spacing:.04em;
+}
+
+.calc-screen{
+  background:var(--screen-bg);
+  border-radius:14px;
+  padding:1.4rem 1.1rem 1rem;
+  margin-bottom:1.2rem;
+  text-align:right;
+  min-height:90px;
+  display:flex;
+  flex-direction:column;
+  justify-content:flex-end;
+  overflow:hidden;
+}
+.calc-expression{
+  color:var(--text-muted);
+  font-size:.95rem;
+  min-height:1.3rem;
+  white-space:nowrap;
+  overflow-x:auto;
+}
+.calc-result{
+  color:var(--text-light);
+  font-size:2.2rem;
+  font-weight:600;
+  word-break:break-all;
+  line-height:1.2;
+}
+
+.calc-keys{
+  display:grid;
+  grid-template-columns:repeat(4, 1fr);
+  gap:.65rem;
+}
+
+.key{
+  border:none;
+  border-radius:14px;
+  background:var(--key-bg);
+  color:var(--text-light);
+  font-family:inherit;
+  font-size:1.15rem;
+  font-weight:500;
+  padding:1rem 0;
+  cursor:pointer;
+  transition:background .15s ease, transform .1s ease;
+}
+.key:hover{ background:var(--key-bg-hover); }
+.key:active{ transform:scale(0.94); }
+
+.key-utility{
+  background:var(--utility-bg);
+  font-size:.95rem;
+}
+.key-utility:hover{ background:#626a7b; }
+
+.key-operator{
+  background:var(--blue);
+  color:#fff;
+}
+.key-operator:hover{ background:var(--blue-deep); }
+
+.key-equals{
+  grid-column:span 2;
+  background:var(--blue);
+  color:#fff;
+  font-weight:600;
+}
+.key-equals:hover{ background:var(--blue-deep); }
+
+.key-zero{
+  grid-column:span 2;
+}
+
+@media (max-width: 380px){
+  .calc-result{ font-size:1.8rem; }
+}
