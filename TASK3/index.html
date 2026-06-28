@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="calculator">
+
+    <div class="calc-header">
+      <span class="calc-title">Calculator</span>
+    </div>
+
+    <div class="calc-screen">
+      <div class="calc-expression" id="expression"></div>
+      <div class="calc-result" id="result">0</div>
+    </div>
+
+    <div class="calc-keys">
+      <button class="key key-utility" data-action="clear">AC</button>
+      <button class="key key-utility" data-action="delete">DEL</button>
+      <button class="key key-utility" data-action="percent">%</button>
+      <button class="key key-operator" data-action="divide">÷</button>
+
+      <button class="key key-digit" data-digit="7">7</button>
+      <button class="key key-digit" data-digit="8">8</button>
+      <button class="key key-digit" data-digit="9">9</button>
+      <button class="key key-operator" data-action="multiply">×</button>
+
+      <button class="key key-digit" data-digit="4">4</button>
+      <button class="key key-digit" data-digit="5">5</button>
+      <button class="key key-digit" data-digit="6">6</button>
+      <button class="key key-operator" data-action="subtract">−</button>
+
+      <button class="key key-digit" data-digit="1">1</button>
+      <button class="key key-digit" data-digit="2">2</button>
+      <button class="key key-digit" data-digit="3">3</button>
+      <button class="key key-operator" data-action="add">+</button>
+
+      <button class="key key-digit key-zero" data-digit="0">0</button>
+      <button class="key key-digit" data-digit=".">.</button>
+      <button class="key key-equals" data-action="equals">=</button>
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
