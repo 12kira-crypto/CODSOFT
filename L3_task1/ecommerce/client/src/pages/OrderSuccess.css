@@ -1,0 +1,15 @@
+.success-page {
+  min-height: calc(100vh - 64px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  text-align: center;
+  padding: 40px;
+}
+
+.success-icon { font-size: 64px; }
+
+.success-page h1 { font-size: 28px; font-weight: 800; }
+.success-page p { color: var(--muted); margin-bottom: 8px; }
